@@ -25,6 +25,7 @@ if __name__ == "__main__":
     # shape of x:        100 x 2
     # shape of y:        100 x 1
     # shape of theta:    2 x 1
+    # default learning rate: 0.009
 
     theta, cost_theta_samples = bgd.batch_gradient_descent(X, theta, Y, 0.009, 0.00005)
     print("optimal theta: {}".format(theta))

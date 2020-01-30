@@ -21,12 +21,16 @@ def batch_gradient_descent(X, theta, Y, learning_rate, converging_threshold):
     while(True):
         current_gradient = gradient_cost(X, theta, Y)
         theta = theta - learning_rate * current_gradient
+#        print("cost: {}".format(cost(X, theta, Y)))
+#        if i == 40: return
         if( math.sqrt(np.dot(current_gradient.T, current_gradient)[0][0]) <= converging_threshold ):   break
         # storing every 100 th cost and theta pair to visualize
         if(i%500 == 0):
+#        if i <= 40:
             current_cost = cost(X, theta, Y)
             print("iteration {}, cost: {}".format(i+1, current_cost))
             cost_theta_samples = np.concatenate( (cost_theta_samples, np.array( [[ theta[0][0], theta[1][0], current_cost ]])))
+#        else: break
         i += 1
     return [theta, cost_theta_samples]
 
