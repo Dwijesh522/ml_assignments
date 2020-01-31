@@ -1,0 +1,8 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+gradient	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/newtons_method.py	/^def gradient(X, theta, Y):$/;"	f	language:Python
+hessian	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/newtons_method.py	/^def hessian(X, theta):$/;"	f	language:Python
+init	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/main.py	/^def init():$/;"	f	language:Python
+newtons_method	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/newtons_method.py	/^def newtons_method(X, theta, Y):$/;"	f	language:Python
+sig	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/newtons_method.py	/^def sig(x):$/;"	f	language:Python
+sig_derivative	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/newtons_method.py	/^def sig_derivative(x):$/;"	f	language:Python
+theta	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question3/main.py	/^    theta = nm.newtons_method(X, theta, Y)$/;"	v	language:Python
