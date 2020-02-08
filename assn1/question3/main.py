@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 import math
 import newtons_method as nm
+import plotting
 
 # use   np.multply for element wise multiplication
 #       np.sum for summing along direction
@@ -19,6 +20,20 @@ def init():
     theta = np.zeros((X.shape[1], 1))
     return [X, theta, Y]
 
+# prints the hypothesis values and correct values
+def print_predictions(X, theta, Y):
+    predictions = nm.sig(np.dot(X, theta))
+    correct, wrong = [0, 0]
+    for i in  range(Y.shape[0]):
+        if(predictions[i] >= 0.5):
+            if(Y[i]==1):    correct += 1
+            else:           wrong += 1
+        else:
+            if(Y[i]==0):    correct += 1
+            else:           wrong += 1
+    print("correctly classified: {}".format(correct))
+    print("wrongly classified: {}".format(wrong))
+
 if __name__ == '__main__':
     
     X, theta, Y = init()
@@ -27,4 +42,6 @@ if __name__ == '__main__':
     # theta     : 3 x 1
     # Y         : 100 x 1
     
-    theta = nm.newtons_method(X, theta, Y)
+    fig, ax = plotting.plot_training_data_hypothesis(X, theta, Y)
+    theta = nm.newtons_method(X, theta, Y, fig, ax)
+    print_predictions(X, theta, Y)
