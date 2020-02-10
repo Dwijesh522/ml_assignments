@@ -1,6 +1,0 @@
-!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-gaussian_discriminant_analysis	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question4/gla.py	/^def gaussian_discriminant_analysis(X_0, X_1, Y_0, Y_1):$/;"	f	language:Python
-init	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question4/main.py	/^def init():$/;"	f	language:Python
-plot_decision_boundry	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question4/plotting.py	/^def plot_decision_boundry(phy, mu_0, mu_1, sigma_0, sigma_1, fig, ax):$/;"	f	language:Python
-plot_training_data_hypothesis	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question4/plotting.py	/^def plot_training_data_hypothesis(X, Y):$/;"	f	language:Python
-sigma	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question4/main.py	/^    sigma = ((sigma_0 * Y_0.shape[0]) + (sigma_1 * Y_1.shape[0]))\/(Y_0.shape[0]+Y_1.shape[0])$/;"	v	language:Python

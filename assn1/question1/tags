@@ -1,5 +1,0 @@
-!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
-draw_contours	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question1/plotting.py	/^def draw_contours(X, theta, Y, theta0_col, theta1_col):$/;"	f	language:Python
-init	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question1/main.py	/^def init():$/;"	f	language:Python
-plot_cost_function	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question1/plotting.py	/^def plot_cost_function(theta0, theta1, cost_value):$/;"	f	language:Python
-plot_training_data_hypothesis	/home/dwijesh/Documents/sem6/ml/assns/codes/ml_assignments/assn1/question1/plotting.py	/^def plot_training_data_hypothesis(X, theta, Y):$/;"	f	language:Python
